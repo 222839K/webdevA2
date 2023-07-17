@@ -1,0 +1,78 @@
+body{
+    background: rgb(189, 252, 171)
+}
+.page{width:80vw;height:80vh;border:5px solid orange}
+nav ul li{display:inline; }
+#page1{background:red}
+#page2{background:green}
+#page3{background:blue}
+
+/*for responsive menu*/
+#hamIcon{display:none;}
+@media screen and (max-width:800px)
+{
+    nav ul li{display:block;} /*make a menu items vertical*/
+    #hamIcon{display: block;} /* unhide menu icon */
+    nav ul{display:none;} /*hide the menu item list*/
+}
+
+button {
+    border: none;
+    cursor: pointer;
+    appearance: none;
+    background-color: inherit;
+    transition: transform 0.7s ease-in-out;
+  }
+
+  button:hover {
+    transform: rotate(360deg);
+  }
+  
+  img {
+    width: 70px;
+    height: 70px;
+  }
+
+.menuShow{
+    display: block;
+}
+
+div.birdname{
+ 
+  max-width:200%;
+}
+
+@media only screen and (max-width: 540px) {
+  div.birdname{
+    transform: translateY(0.4em);
+    max-width:200%;
+  }
+}
+
+img.birdicon{
+  width: 2em;
+  height: 2em;
+
+}
+
+div.header
+{
+  font-size: 3.5em;
+  padding-left: 4%;
+  padding-right: 4%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-grow: 3;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom-style: solid;
+  border-color: rgb(138, 59, 2);
+  border-width: 0.1em;
+}
+
+button.headerbtn
+{
+  font-weight: bold;
+  font-size: 0.3em;
+  padding-right:3.55em;
+}
