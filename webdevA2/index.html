@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
+    <title>Asian Koel</title>
+    <link rel = "stylesheet" href = "style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div id = "header">
+    <div class = "header">
+        <div>
+            <img class = "birdicon" src ="Images/bird.jpg">
+        </div>
+        <div class = "navi">
+            <nav>
+                <button class="hamIcon">&#9776;</button>
+        <!--menu systtm-->
+            <ul class =" menuList" class="menushow">
+                <li><button class="headerbtn page1btn">About</button></li>
+                <li><button class="headerbtn page2btn">Behaviour and Habitat</button></li>
+                <li><button class="headerbtn page3btn">Other Birds</button></li>
+            </ul>
+        </div>
+    </div>
+    </div>
+            <div id="pagecontainer">
+                <div class="page" id="page1">
+                    <div class = "first landingpage">
+                        <div class = "birdname">
+                            <h1>Asian Koel</h1>
+                        </div>
+                        <div class = "slideshow">
+                            <div class = "birdslides 1st">
+                                <img class="birds" src="Images/asiankoelmale.jpg">
+                                <div class="birdcap">Male</div>
+                            </div>
+                            <div class = "birdslides 2nd">
+                                <img class="birds" src="Images/asiankoelfemale.jpg">
+                                <div class="birdcap">Female</div>
+                            </div>
+                            <div class = "birdslides 2nd">
+                                <img class="birds" src="Images/asiankoelfledge.jpg">
+                                <div class="birdcap">Fledgling</div>
+                            </div>
+                            <button class="slide left" onclick="plusDivs(-1)">&#10094;</button>
+                            <button class="slide right" onclick="plusDivs(+1)">&#10095;</button>
+                            <div style="text-align:center">
+                                <span class="dot" onclick="currentSlide(1)"></span>
+                                <span class="dot" onclick="currentSlide(2)"></span>
+                                <span class="dot" onclick="currentSlide(3)"></span>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class = "birdflying">
+                        <img class="birdflyingimg" src="Images/birdflying1.jpg">
+                        <img class="birdflyingimg opp" src="Images/birdflying1.jpg">
+                    </div>
+                <div class = "firstpage firstdesc">
+                        <h3>What is an Asian Koel?</h3>
+                        <img class="birdfed" src="Images/asiankoelfed.jpg">
+                    <p> Ever wondered what makes the "ooh-woo" bird calls in the morning?
+                        It comes from the Asian koel, which is a large cuckoo bird. Its loud
+                        call is made by male birds in order to attract female birds to mate.
+                        </p>
+                        <audio controls>
+                            <source src="Audio/koelcall.ogg" type="audio/ogg">
+                        </audio>
+                </div>
+                <div class = "birdflying">
+                    <img class="birdflyingimg" src="Images/birdflying1.jpg">
+                    <img class="birdflyingimg opp" src="Images/birdflying1.jpg">
+                </div>
+                <div class = "firstpage seconddesc">
+                    <h3>How does it look like?</h3>
+                    <p>The male Asian koel is glossy bluish-black, with a pale greenish grey bill, 
+                        the iris is crimson, and it has grey legs and feet. The female is brownish 
+                        on the crown and has rufous streaks on the head. The back, rump, and wing 
+                        coverts are dark brown with white and buff spots. The underparts are whitish 
+                        but are heavily striped. The upper plumage of young birds is more like that
+                        of the male and they have a black beak.</p>
+                    <img class="birdfed" src="Images/asiankoelfeeding.jpg">
+                </div>
+                </div>
+                </div>
+                <div class="page" id="page2">
+                    <div class = "game">
+                        <body>
+                            <div class = "game">
+                                <div class="ball">
+                                    <img class="bluebirdflying" src="Images/bluebirdflying.png">
+                                </div>
+                                <div class = "nest">
+                                    <img class = "nestpic" src = "Images/nest.png">
+                                </div>
+                                <div class = "buttons">
+                                    <button class="leftBtn Btn">Left</button>
+                                    <button class="rightBtn Btn">Right</button>
+                                    <button class="upBtn Btn">Up</button>
+                                    <button class="downBtn Btn">Down</button>
+                                    <button class="resetBtn Btn">Reset</button>
+                                </div>
+                                <div class = "win">
+                                    <p>Win!</p>
+                                </div>
+                                <div class = "instructions">
+                                    <p>Bring the bird back to the nest using the arrow keys</p>
+                                </div>
+                            </div>
+                        </body>
+                    </div>
+                   
+                    <div class = "birdflying">
+                        <img class="birdflyingimg" src="Images/birdflying1.jpg">
+                        <img class="birdflyingimg opp" src="Images/birdflying1.jpg">
+                    </div>
+                    <div class = "secondpage firstdesc">
+                        <h3>Behaviour</h3>
+                        <img class="birdfed" src="Images/koelegg.png">
+                        <p>It is a brood parasite, meaning that it lays its eggs in the nests of other birds.
+                            Its eggs would hatch about 3 days ahead of the hosts chicks, but does not always
+                            push out the other eggs or evict the host chicks. The hosts will care for the young Koel, which will 
+                            fledge in 20 to 28 days. In Singapore, it usually lays its eggs in the nests of House Crows.</p>
+                    </div>
+                    <div class = "birdflying">
+                        <img class="birdflyingimg" src="Images/birdflying1.jpg">
+                        <img class="birdflyingimg opp" src="Images/birdflying1.jpg">
+                    </div>
+                    <div class = "secondpage seconddesc">
+                        <h3>Diet</h3>
+                        <img class="birdfed" src="Images/koeleating.jpg">
+                        <p>It is a brood parasite, meaning that it lays its eggs in the nests of other birds.
+                            Its eggs would hatch about 3 days ahead of the hosts chicks, but does not always
+                            push out the other eggs or evict the host chicks. The hosts will care for the young Koel, which will 
+                            fledge in 20 to 28 days. In Singapore, it usually lays its eggs in the nests of House Crows.</p>
+                    </div>
+                    <div class = "birdflying">
+                        <img class="birdflyingimg" src="Images/birdflying1.jpg">
+                        <img class="birdflyingimg opp" src="Images/birdflying1.jpg">
+                    </div>
+                    <div class = "secondpage firstdesc">
+                        <h3>Habitat</h3>
+                        <img class="birdfed" src="Images/koelmap.png">
+                        <p>The Asian Koel primarily resides in light woodlands,
+                            shrubby areas with scattered trees, gardens, plantations, 
+                            and urban areas. They can be found in China, South Asia 
+                            and Southeast Asia. The black parts on the map represent the
+                            distribution of the Asian Koel.</p>
+                    </div>
+                </div>
+                <div class="page" id="page3">
+                    <div class = "thirdpage">
+                        <div class="container">
+                            <img src="Images/oriole.jpg" alt="Avatar" class="image">
+                            <div class="overlay">
+                              <h3 class="text">Black-naped Oriole</h3>
+                              <p>The black-naped oriole is is a bird of the oriole family and 
+                                is found in many parts of Asia, including Singapore. It prefers
+                                to live in Urban parks, scrub, degraded forests, forests, mangroves.
+                                It is omnivorous, feeding on a wide range of food such as fruits and insects.</p>
+                                <audio controls>
+                                    <source src="Audio/koelcall.ogg" type="audio/ogg">
+                                </audio>
+                            </div>
+                        </div>
+                        <div class="container1">
+                            <img src="Images/kingfisher.jpg" alt="Avatar" class="image">
+                            <div class="overlay">
+                              <h3 class="text">Collared Kingfisher</h3>
+                              <p>The collared kingfisher is a mid-sized kingfisher that is found
+                                 from northeast Africa, Middle East, India, Southeast Asia to northern Australia.
+                                 It prefers to live near waterbodies or near forests edge, parks, gardens, 
+                                 open woodlands, grasslands and mangroves. It is mostly carnivorous, feeding on
+                                fish, lizards, insects, and small amphibians.
+                              </p>
+                                <audio controls>
+                                    <source src="Audio/kingfishercall.mp3" type="audio/mp3">
+                                </audio>
+                            </div>
+                        </div>
+                        <div class="container2">
+                            <img src="Images/sunbird.jpg" alt="Avatar" class="image">
+                            <div class="overlay">
+                              <h3 class="text">Olive-backed sunbird</h3>
+                              <p>The olive-backed sunbird is a small songbird that is found from southern China 
+                                 to Southeast Asia and north-east Australia. It prefers to live in Gardens, 
+                                 parks, mangroves, secondary growth and other wooded areas. It is insectivorous
+                                 and nectarivorous. </p>
+                                <audio controls>
+                                    <source src="Audio/sunbirdcall.mp3" type="audio/mp3">
+                                </audio>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+           
+            <footer>
+                <a href="#header">Back to Top <br></a>
+            </footer>
+        </nav>
+</body>
+</html>
